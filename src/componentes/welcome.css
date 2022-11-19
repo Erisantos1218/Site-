@@ -1,0 +1,27 @@
+#welcome{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#welcome{
+    color: #77ffc0;
+}
+#welcome h1{
+    font-size: 3vw;
+}
+
+#welcome img{
+    width: 35vw;
+}
+
+@media screen and (max-width: 600px) {
+    #welcome img{
+        background-attachment: blue;
+       
+    }
+  
+  }
